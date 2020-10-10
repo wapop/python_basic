@@ -1,0 +1,88 @@
+anaconda 패키지
+individual 파이썬 3.7 64bit
+matplotlib 큰 뼈대등... 도화지 역할
+seaborn : 그래프,차트 그리는 물감 역할
+-tutorial에서 원하는 그래프 코드보기
+
+
+jupyter 새 폴더 만들고 python 3 열면 코드입력창 열림
+in[2]: 코드모드. 코드입력 혹은 문서작업 함께 가능-exc누르기 a(코드모드:파이썬언어), m(마크다운모드: 코드아니라 텍스트형태)
+
+shift +enter 다음줄 단축키
+ctril shift - : 줄 분류
+relplot 관계형데이터할때 쓰는
+
+sns. 치고 tab
+sns. relplot() 괄호 치고 shift tab 하면 설정가능항목 나옴
+데이터셋 지정하는 부분은 ctrshif-해서 끊어두 
+
+ESC DD 삭제
+
+fmri.head() : 데이터 보기
+dots.head(): ==
+
+
+https://seaborn.pydata.org/api.html
+API 우리가 자주사용하는거 
+barplot, boxplot, violen, point plot 
+모두 x,y,data 입력 모두 같음
+
+distplot 안에서 kedplot, rug 그릴 수 있음
+Regression 선형회귀
+
+NOT DEFINED 오류 처음부터 쭉쭉 shift enter 눌러서 다시 실행해보기
+
+
+
+sns.set
+
+
+facit? 그리드에서만 먹힌다!!!????가 무슨말인지 모르겠움
+
+<오후실습>
+색상을 다르게 설정, 
+이름 다르게, 
+한 view 에 세개의 그래프 표현하고 싶을때.
+
+
+mptplotlib inline
+rs=RANDOM STATE , 데이터 생성시 랜덤이어도 누구나 동일한 값 가지면 좋겠을때 rs = np.random.RandomState(8) 숫자 넣음
+
+*
+f, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(7, 5), sharex=True)
+facit 그리드는 도화지 설정해줄필요없는데, 다른거 여러개 그릴때는  
+plt.subplot (subplot 설정해주어야함)
+
+*g=green
+sequential :라벨
+palette="vlag" "deep" 팔레트 설정
+
+*EX11 
+xy설정해주지 않ㄱ도 그냥 데이터 넣었을때
+
+
+
+*릴플랏 scatter, 라인찍는거
+
+***** 도메인에 대한 knowledge 있는지, 
+데이터에 대한 감으로 축 픽하기, 도메인에 대한 지식 얼마나 있는지 여부
+
+먼저 lmplot 그려서 관계 파악하기
+
+분포가 균등한지 보려고 swarmplot 한번 입력해봄
+제가 이런거 봤더니 이런 결과가 나왔씁니다. 식
+
+~~이유가 있어서 point plot 해봤구,,,
+
+
+*** EX14 이미지 데이터 
+
+지금 데이터 전처리라서, 실제 분석은 나중에하구
+함수 짜기 전에 아 이거랑이거랑 분석해야지 정도 단계 지금
+
+**실무에 쓰이는 기술들을 자연스럽게 쓸수있을 만큼 익숙해진 비전공자
+프로젝트 
+저장에 로컬에 하지말구 주석 잘 달고, 블로그에 정리하거나 git 정리 자기가 알아볼수있을 방법으로, 여유시간동안 잘 활용하기 필요함
+네이버등 비전공자들 뽑는,,,
+
+
